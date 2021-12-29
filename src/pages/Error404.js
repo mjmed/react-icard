@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Message } from 'semantic-ui-react'
-import './Error404.scss'
+import { Message } from 'semantic-ui-react';
+import './Error404.scss';
 
 export const Error404 = () => {
     return (
