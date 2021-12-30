@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Swal from 'sweetalert2';
 
 import { Loader } from 'semantic-ui-react';
 
@@ -36,19 +37,42 @@ export function UsersAdmin() {
     }
 
     const onDeleteUser = async (data) => {
-        const result = window.confirm(`¿Eliminar usuario ${data.email}?`);
 
-        if (result) {
+        Swal.fire({
+            title: `¿Eliminar usuario ${data.email}?`,
+            text: "No podrá revertir esta acción",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#2185d0',
+            cancelButtonColor: '#db2828',
+            confirmButtonText: 'Sí, eliminar',
+            cancelButtonText: 'Cancelar'
+        }).then(async (result) => {
 
-            try {
-                // console.log('Usuario eliminado');
-                await deleteUser(data.id);
-                onRefetch();
-                
-            } catch (error) {
-                console.error(error);
+            if (result.isConfirmed) {
+                try {
+                    await deleteUser(data.id);
+                    onRefetch();
+                    
+                } catch (error) {
+                    console.error(error);
+                }
             }
-        }
+        });
+
+        // const result = window.confirm(`¿Eliminar usuario ${data.email}?`);
+
+        // if (result) {
+
+        //     try {
+        //         // console.log('Usuario eliminado');
+        //         await deleteUser(data.id);
+        //         onRefetch();
+                
+        //     } catch (error) {
+        //         console.error(error);
+        //     }
+        // }
     }
 
     return (

@@ -20,6 +20,7 @@ Incluye:
 - [**Formik**](https://formik.org/)
 - [**Yup**](https://www.npmjs.com/package/yup)
 - [**React-Toastify**](https://www.npmjs.com/package/react-toastify)
+- [**Sweetalert2**](https://sweetalert2.github.io/)
 
 ### Versión: 1.0.0
 
