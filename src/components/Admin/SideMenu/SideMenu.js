@@ -37,7 +37,7 @@ function MenuLeft(props) {
                 <Icon name='history' /> Historial de pagos
             </Menu.Item>
             <Menu.Item as={Link} to={'/admin/categories'} active={pathname === '/admin/categories'}>
-                <Icon name='list' /> Categorías
+                <Icon name='th' /> Categorías
             </Menu.Item>
             <Menu.Item as={Link} to={'/admin/products'} active={pathname === '/admin/products'}>
                 <Icon name='coffee' /> Productos

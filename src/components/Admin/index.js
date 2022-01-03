@@ -1,3 +1,4 @@
+export * from './Category';
 export * from './HeaderPage';
 export * from './LoginForm';
 export * from './SideMenu';
