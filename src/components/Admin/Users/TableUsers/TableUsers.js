@@ -59,7 +59,7 @@ function Actions({ user, updateUser, onDeleteUser }) {
                 <Icon name='pencil' />
             </Button>
             <Button icon negative onClick={() => onDeleteUser(user)}>
-                <Icon name='close' />
+                <Icon name='trash' />
             </Button>
         </Table.Cell>
     )
