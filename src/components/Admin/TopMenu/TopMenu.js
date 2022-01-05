@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Icon, Menu } from 'semantic-ui-react';
+import { Header, Icon, Menu } from 'semantic-ui-react';
 
 import './TopMenu.scss';
 import { useAuth } from '../../../hooks';
@@ -21,7 +21,8 @@ export function TopMenu() {
     return (
         <Menu fixed='top' className='top-menu-admin'>
             <Menu.Item className='top-menu-admin__logo'>
-                <h3>iCard Admin</h3>
+                {/* <h3>iCard Admin</h3> */}
+                <Header as='h3' icon='tablet alternate' content='iCard Admin' />
             </Menu.Item>
 
             <Menu.Menu position='right'>
