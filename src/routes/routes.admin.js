@@ -1,10 +1,11 @@
 import { AdminLayout } from '../layouts';
 import {
     CategoriesAdmin,
-    HomeAdmin,
+    OrdersAdmin,
     ProductsAdmin,
     TablesAdmin,
-    UsersAdmin
+    TableDetailsAdmin,
+    UsersAdmin,
 } from '../pages/Admin';
 
 
@@ -12,7 +13,7 @@ const routesAdmin = [
     {
         path: '/admin',
         layout: AdminLayout,
-        component: HomeAdmin,
+        component: OrdersAdmin,
     },
     {
         path: '/admin/users',
@@ -33,6 +34,11 @@ const routesAdmin = [
         path: '/admin/tables',
         layout: AdminLayout,
         component: TablesAdmin,
+    },
+    {
+        path: '/admin/table/:id',
+        layout: AdminLayout,
+        component: TableDetailsAdmin,
     },
 ];
 

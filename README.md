@@ -27,6 +27,7 @@ Incluye:
 - [**React-Toastify**](https://www.npmjs.com/package/react-toastify)
 - [**Sweetalert2**](https://sweetalert2.github.io/)
 - [**React-Dropzone**](https://react-dropzone.js.org/)
+- [**Classnames**](https://www.npmjs.com/package/classnames)
 
 ### Versión: 1.0.0
 
