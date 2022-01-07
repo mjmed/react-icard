@@ -16,6 +16,7 @@ Incluye:
 + Validaciones de formularios con **Yup**
 + Alertas y notificaciones con **React-Toastify**
 + Subida de imagenes con **React-Dropzone**
++ Manejo de fechas con **Moment**
 
 ### Librerías y paquetes utilizados:
 - [**Semantic UI React**](https://react.semantic-ui.com/)
@@ -28,6 +29,7 @@ Incluye:
 - [**Sweetalert2**](https://sweetalert2.github.io/)
 - [**React-Dropzone**](https://react-dropzone.js.org/)
 - [**Classnames**](https://www.npmjs.com/package/classnames)
+- [**Moment**](https://momentjs.com/)
 
 ### Versión: 1.0.0
 
