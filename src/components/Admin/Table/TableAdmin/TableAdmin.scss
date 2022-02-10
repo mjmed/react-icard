@@ -13,7 +13,7 @@
 
     .ui.label {
         margin: 0;
-        font-size: 20px;
+        font-size: 14px;
         position: absolute;
         top: 30px;
     }
@@ -24,11 +24,15 @@
         fill: #333;
 
         &.busy {
-            fill: #bb7900
+            fill: #d97706
         }
 
         &.pending {
-            fill: #2185d0
+            fill: #0284c7
+        }
+
+        &.pending-payment {
+            fill: #16a34a
         }
     }
 
