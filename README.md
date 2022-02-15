@@ -4,9 +4,29 @@
 
 Aplicación **iCard**: carta digital para restaurantes, creada con _React_.
 
-Funciones principales:
+Posee dos módulos:
++ Módulo _Administración_ para empleados del restaurante
++ Módulo _Cliente_ para la interacción de los clientes con el restaurante
+
+Funciones principales en _Administración_:
 + Gestión de usuarios (_CRUD_)
 + Gestión de categorías (_CRUD_)
++ Gestión de productos (_CRUD_)
++ Gestión de mesas (_CRUD_)
++ Gestión de pedidos y pagos:
+    - Generar un pedido
+    - Entregar pedido
+    - Generar cuenta
+    - Ver cuenta
+    - Marcar como pagado y cerrar cuenta
++ Consulta del historial de pagos
+
+Funciones principales en _Cliente_:
++ Seleccionar una mesa
++ Agregar productos al carrito
++ Realizar un pedido
++ Ver el listado de productos pedidos (_Historial de pedidos_)
++ Solicitar pedir cuenta
 
 Incluye:
 + Componentes con **Semantic UI React**
@@ -17,6 +37,7 @@ Incluye:
 + Alertas y notificaciones con **React-Toastify**
 + Subida de imagenes con **React-Dropzone**
 + Manejo de fechas con **Moment**
++ Alertas con **Sweetalert2**
 
 ### Librerías y paquetes utilizados:
 - [**Semantic UI React**](https://react.semantic-ui.com/)
@@ -30,6 +51,7 @@ Incluye:
 - [**React-Dropzone**](https://react-dropzone.js.org/)
 - [**Classnames**](https://www.npmjs.com/package/classnames)
 - [**Moment**](https://momentjs.com/)
+- [**Sweetalert2**](https://sweetalert2.github.io/)
 
 ### Versión: 1.0.0
 
