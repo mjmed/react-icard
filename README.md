@@ -51,7 +51,6 @@ Incluye:
 - [**React-Dropzone**](https://react-dropzone.js.org/)
 - [**Classnames**](https://www.npmjs.com/package/classnames)
 - [**Moment**](https://momentjs.com/)
-- [**Sweetalert2**](https://sweetalert2.github.io/)
 
 ### Versión: 1.0.0
 
