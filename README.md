@@ -38,6 +38,7 @@ Incluye:
 + Subida de imagenes con **React-Dropzone**
 + Manejo de fechas con **Moment**
 + Alertas con **Sweetalert2**
++ Generación de códigos QR con **qrcode.react**
 
 ### Librerías y paquetes utilizados:
 - [**Semantic UI React**](https://react.semantic-ui.com/)
@@ -51,6 +52,7 @@ Incluye:
 - [**React-Dropzone**](https://react-dropzone.js.org/)
 - [**Classnames**](https://www.npmjs.com/package/classnames)
 - [**Moment**](https://momentjs.com/)
+- [**qrcode.react**](https://www.npmjs.com/package/qrcode.react)
 
 ### Versión: 1.0.0
 
